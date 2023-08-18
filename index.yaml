@@ -1,14 +1,25 @@
 apiVersion: v1
 entries:
+  bad-Chart:
+  - apiVersion: v2
+    appVersion: 0.1.0
+    created: "2023-08-18T12:24:15.904257+05:30"
+    description: A Helm chart for Kubernetes
+    digest: 3b7ba1c04ee2cf13d2cd9d92b7329479be9fc0f8042bbb8b8667491d4f75ffe4
+    name: bad-Chart
+    type: application
+    urls:
+    - bad-Chart-0.1.0.tgz
+    version: 0.1.0
   good-chart:
   - apiVersion: v2
     appVersion: 0.1.0
-    created: "2023-08-18T11:50:02.658909+05:30"
+    created: "2023-08-18T12:24:15.904785+05:30"
     description: A Helm chart for Kubernetes
     digest: 1c830b0738a991d38bf355e827d04e7ecdd5a711ca644385ca7e35239a30b23f
     name: good-chart
     type: application
     urls:
-    - https://ravi-rafay.github.io/helm-chart-private/good-chart-0.1.0.tgz
+    - good-chart-0.1.0.tgz
     version: 0.1.0
-generated: "2023-08-18T11:50:02.65686+05:30"
+generated: "2023-08-18T12:24:15.903821+05:30"
