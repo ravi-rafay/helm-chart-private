@@ -2,8 +2,18 @@ apiVersion: v1
 entries:
   Marketplace-CANVAS:
   - apiVersion: v2
+    appVersion: 0.1.2
+    created: "2023-08-21T15:47:05.358765+05:30"
+    description: A Helm chart for Kubernetes
+    digest: 9b40ea81f7409fc03ff4f767125c46ade7f870162b43f6b79efe5261e982079a
+    name: Marketplace-CANVAS
+    type: application
+    urls:
+    - Marketplace-CANVAS-0.1.2.tgz
+    version: 0.1.2
+  - apiVersion: v2
     appVersion: 0.1.1
-    created: "2023-08-21T15:43:05.751556+05:30"
+    created: "2023-08-21T15:47:05.35852+05:30"
     description: A Helm chart for Kubernetes
     digest: 7f5049eeff8ebb83bd8755fd0b7e9218277d9b97e18fd054c0c7b9da4642ee2e
     name: Marketplace-CANVAS
@@ -13,7 +23,7 @@ entries:
     version: 0.1.1
   - apiVersion: v2
     appVersion: 0.1.0
-    created: "2023-08-21T15:43:05.751327+05:30"
+    created: "2023-08-21T15:47:05.357216+05:30"
     description: A Helm chart for Kubernetes
     digest: 6f2295a1c750d1d59198ba4985858dcee36199bb7681948e5236374441fcb1eb
     name: Marketplace-CANVAS
@@ -24,7 +34,7 @@ entries:
   bad-Chart:
   - apiVersion: v2
     appVersion: 0.1.0
-    created: "2023-08-21T15:43:05.751903+05:30"
+    created: "2023-08-21T15:47:05.359131+05:30"
     description: A Helm chart for Kubernetes
     digest: 3b7ba1c04ee2cf13d2cd9d92b7329479be9fc0f8042bbb8b8667491d4f75ffe4
     name: bad-Chart
@@ -35,7 +45,7 @@ entries:
   good-chart:
   - apiVersion: v2
     appVersion: 0.1.0
-    created: "2023-08-21T15:43:05.752254+05:30"
+    created: "2023-08-21T15:47:05.359545+05:30"
     description: A Helm chart for Kubernetes
     digest: 1c830b0738a991d38bf355e827d04e7ecdd5a711ca644385ca7e35239a30b23f
     name: good-chart
@@ -43,4 +53,4 @@ entries:
     urls:
     - good-chart-0.1.0.tgz
     version: 0.1.0
-generated: "2023-08-21T15:43:05.750425+05:30"
+generated: "2023-08-21T15:47:05.356461+05:30"
